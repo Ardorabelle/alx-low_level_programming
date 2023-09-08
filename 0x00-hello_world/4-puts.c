@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
- * msin - Prints a string
+ * main - this is the main function
+ * main - prints a string to output
  *
  * Return:0
  */
