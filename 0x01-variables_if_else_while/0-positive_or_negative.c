@@ -6,7 +6,7 @@
  * main - This is the main function
  * description - This function determines if a number is negativr or positive
  *
- * Return : 0
+ * Return: This should return 0
 */
 int main(void)
 {
