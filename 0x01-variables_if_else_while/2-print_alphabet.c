@@ -7,7 +7,7 @@
  *Return: 0
 */
 
- int main(void)
+int main(void)
 {
 	int i = 1;
 	int digits = (96);
@@ -19,6 +19,6 @@
 		putchar(digits);
 	}
 	putchar(10);
-	return 0;
+	return (0);
 }
 
