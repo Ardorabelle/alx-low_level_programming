@@ -10,6 +10,7 @@ int main(void)
 	int i = 1;
 	/*prints single digitbase 10 numbers*/
 	int digits = (47);
+
 	while (digits < 57)
 	{
 		digits = digits + i;
