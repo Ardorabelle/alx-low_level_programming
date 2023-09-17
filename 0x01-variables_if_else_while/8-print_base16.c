@@ -9,7 +9,7 @@ int main(void)
 {
 	int i = 1;
 	/*declaring variable for char before first num*/
-	int digits = (48);
+	int digits = (47);
 
 	/*condition to print first 10 nums*/
 	while (digits < (57))
