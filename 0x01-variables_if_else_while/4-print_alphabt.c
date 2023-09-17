@@ -2,7 +2,7 @@
 
 /**
  * main - this is the main function
- * main - this will  print the alphabet in lowercase, and then in uppercase, followed by a new line
+ * main - prints the alphabet in lowercase, followed by a new line
  *
  *Return: 0
 */
