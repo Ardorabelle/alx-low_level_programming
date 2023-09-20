@@ -1,11 +1,16 @@
 #include "main.h"
 /**
- *main - this is the main function
- *main - this prints the alphabet, in lowercase
- *Return: 0
+ *print_alphabet - prints the alphabet in lowercase
+ *Return: void
 */
-int main (void)
+void print_alphabet(void)
 {
-	char c = "mN";
-	_putchar(c)
+  char a = (96);
+  int i = 1;
+  while(a < (122))
+    {
+      a = a + i;
+      _putchar(a);
+    }
+  _putchar(10);
 }
