@@ -8,22 +8,20 @@
  *
  * Return: This should return 0
 */
-int main(void)
+void positive_or_negative(int i)
 {
-	int n;
 
 	srand(time(0));
-	n = rand() - RAND_MAX / 2;
+	i = rand() - RAND_MAX / 2;
 	/* your code goes there */
-	if (n > 0)
+	if (i > 0)
 	{
-		printf("%i is positive\n", n);
-	} else if (n == 0)
+		printf("%i is positive\n", i);
+	} else if (i == 0)
 	{
-		printf("%i is zero\n", n);
+		printf("%i is zero\n", i);
 	} else
 	{
-		printf("%i is negative\n", n);
+		printf("%i is negative\n", i);
 	}
-	return (0);
 }
