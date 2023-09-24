@@ -3,6 +3,7 @@
 
 #include <stdio.h>
 
-int positive_or_negative(int);/*checks if number is positive or negative*/
+/*checks if number is positive or negative*/
+int positive_or_negative(int);
 
 #endif /* MAIN_H */
